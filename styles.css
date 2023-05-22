@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+body,
+html {
+  height: 100%;
+}
+body {
+  background-image: url(images/orange-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.message-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Vertically align items */
+  height: 100vh;
+  text-align: center;
+  flex-direction: column;
+}
+
+img.shutter {
+  width: 75px; /* Adjust the size of the image as needed */
+  height: 75px;
+  margin-right: 5px; /* Add some spacing between the image and text */
+}
+
+span.logo-text {
+  font-size: 100px; /* Adjust the font size as needed */
+  font-family: "Work Sans", sans-serif;
+}
+
+h1.under-construction {
+  padding: 10px;
+  margin: 50px;
+  font-size: 40px; /* Adjust the font size as needed */
+  font-family: "Roboto", sans-serif;
+}
+
+p.coming-soon {
+  font-size: 30px; /* Adjust the font size as needed */
+  font-family: "Roboto", sans-serif;
+}
+
+div.socials {
+  padding: 10px;
+  margin: 50px;
+  font-size: 40px; /* Adjust the font size as needed */
+  font-family: "Roboto", sans-serif;
+}
